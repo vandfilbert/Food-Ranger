@@ -1,22 +1,32 @@
 	  <footer class="ftco-section ftco-section-2">
-	      <div class="col-md-12 text-center">
-	          <p class="mb-0">
-	              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-	              Copyright &copy;<script>
-	                  document.write(new Date().getFullYear());
-	              </script> All rights reserved <a href="https://colorlib.com" target="_blank">Food Ranger</a>
-	              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-	          </p>
-	      </div>
+	  	<div class="col-md-12 text-center">
+	  		<p class="mb-0">
+	  			<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+	  			Copyright &copy;<script>
+	  				document.write(new Date().getFullYear());
+	  			</script> All rights reserved <a href="https://colorlib.com" target="_blank">Food Ranger</a>
+	  			<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+	  		</p>
+	  	</div>
 	  </footer>
 
 	  </div>
 
 	  <!-- loader -->
 	  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">
-	          <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
-	          <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00" /></svg></div>
+	  		<circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
+	  		<circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00" /></svg></div>
 
+	  <script type="text/javascript">
+	  	$('.custom-file-input').on('change', function() {
+	  		let fileName = $(this).val().split('\\').pop();
+	  		$(this).next('.custom-file-label').addClass("selected").html(fileName);
+	  	});
+
+	  	$('#closebtn').on('click', function() {
+	  		window.location = "<?= site_url('Profile'); ?>"
+	  	});
+	  </script>
 
 	  <script src="<?= base_url() ?>public/asset/js/jquery.min.js"></script>
 	  <script src="<?= base_url() ?>public/asset/js/jquery-migrate-3.0.1.min.js"></script>

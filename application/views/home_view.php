@@ -1,4 +1,4 @@
-<section class="hero-wrap js-fullheight">
+<section class="hero-wrap js-fullheight" style="background-image: url('<?= base_url() ?>/public/pic/market.jpg'); background-size:auto; width:100%;">
     <div class="container">
         <div class="row description js-fullheight align-items-center justify-content-center">
             <div class="col-md-8 text-center">
@@ -11,85 +11,48 @@
     </div>
 </section>
 
-<section class="ftco-section" id="images">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <h2 class="heading-section mb-4">Images</h2>
-                <div class="row">
-                    <div class="col-md-3 text-center">
-                        <h2 class="heading-section mb-4">
-                            <small>Rounded Image</small>
-                        </h2>
-                        <img src="images/avatar.jpg" alt="Round Image" class="rounded img-fluid image">
-                    </div>
-                    <div class="col-md-3 text-center">
-                        <h2 class="heading-section mb-4">
-                            <small>Circle Image</small>
-                        </h2>
-                        <img src="images/avatar.jpg" alt="Circle Image" class="rounded-circle img-fluid image">
-                    </div>
-                    <div class="col-md-3 text-center">
-                        <h2 class="heading-section mb-4">
-                            <small>Rounded Raised</small>
-                        </h2>
-                        <img src="images/avatar.jpg" alt="Thumbnail Image" class="img-raised rounded img-fluid image">
-                    </div>
-
-                    <div class="col-md-3 text-center">
-                        <h2 class="heading-section mb-4">
-                            <small>Circle Raised</small>
-                        </h2>
-                        <img src="images/avatar.jpg" alt="Thumbnail Image" class="img-raised rounded-circle thumbnail img-fluid image">
-                    </div>
-                </div>
-            </div>
+<section class="ftco-section">
+    <div class="jumbotron jumbotron-fluid" style="background-color: #799c55">
+        <div class="container">
+            <h1 class="display-4">Our Vision</h1>
+            <p class="lead" style="text-align: justify; color: white;">
+                Strat from the care, end with action, and finish it well.
+            </p>
         </div>
     </div>
 </section>
 
-<section class="ftco-section ftco-section-2 bg-primary" id="carousel">
+<section class="ftco-section" style="margin-top:-50px;">
+    <div class="col-md-12 text-center">
+        <img src="<?= site_url('public/pic/tree.png') ?>" class="rounded" alt="Food Ranger" height="auto;" width="260px"><br>
+        <h2 class="heading-section mb-4">
+            <large>Fun fact from FOOD RANGER</large>
+        </h2>
+    </div>
+</section>
+
+<section class="ftco-section ftco-section-2" style="margin-top:-100px;">
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-md-5">
-                <h2 class="heading-section mb-4 pb-md-3">
-                    Bootstrap Carousel
-                </h2>
-                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-                <p><a href="#" class="btn btn-white">See all components</a></p>
-            </div>
             <div class="col-md-7">
-                <div id="demo" class="carousel slide" data-ride="carousel">
-
-                    <!-- Indicators -->
-                    <ul class="carousel-indicators">
-                        <li data-target="#demo" data-slide-to="0" class="active"></li>
-                        <li data-target="#demo" data-slide-to="1"></li>
-                        <li data-target="#demo" data-slide-to="2"></li>
-                    </ul>
-
-                    <!-- The slideshow -->
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src="images/slider-1.jpg" alt="" class="img-fluid rounded">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="images/slider-2.jpg" alt="" class="img-fluid rounded">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="images/slider-3.jpg" alt="" class="img-fluid rounded">
-                        </div>
-                    </div>
-
-                    <!-- Left and right controls -->
-                    <a class="carousel-control-prev" href="#demo" data-slide="prev">
-                        <span class="ion-ios-arrow-round-back"></span>
-                    </a>
-                    <a class="carousel-control-next" href="#demo" data-slide="next">
-                        <span class="ion-ios-arrow-round-forward"></span>
-                    </a>
-                </div>
+                <h2 class="heading-section mb-4 pb-md-3">
+                    <b>Did you know?</b>
+                </h2>
+                <h5>
+                    1.3 billion tons of food are wasted every year.
+                </h5>
+                <h5>
+                    If wasted food was a country, it would be the third largest producer of carbon dioxide in the world, after the United States and China.
+                </h5>
+                <h5>
+                    Food waste generates 3.3 billions tons of carbon dioxide, which accelerates global climate change.
+                </h5>
+                <h5>
+                    According to the Economics Intelligence Unit (EIU) in 2016 Indonesia ranked the second largest food waste.
+                </h5>
+            </div>
+            <div class="col-md-5">
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/1aH7RwOD0RE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>
     </div>
@@ -100,55 +63,39 @@
         <div class="row">
             <div class="col-md-12">
                 <h2 class="heading-section mb-4 pb-md-3">
-                    Cards Styles
+                    Event on FOOD RANGER
                 </h2>
             </div>
         </div>
         <div class="row">
-            <div class="col-md-4">
-                <h2 class="heading-section mb-4 pb-md-3">
-                    <small>Cards Default</small>
-                </h2>
-                <div class="card">
-                    <h5 class="card-header py-4">Featured</h5>
-                    <div class="card-body">
-                        <h5 class="card-title">Special title treatment</h5>
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+            <?php
+            $query = "SELECT * FROM `event` WHERE CURRENT_DATE() <= `end_event`";
+            $event = $this->db->query($query)->result_array();
+            ?>
+            <?php foreach ($event as $_event) : ?>
+                <?php $time = date_create($_event['time_start']); ?>
+                <?php $time2 = date_create($_event['time_end']); ?>
+                <?php $timeStart = date_format($time, 'H:i A'); ?>
+                <?php $timeEnd = date_format($time2, 'H:i A'); ?>
+                <div class="col-md-4">
+                    <div class="card" style="margin-bottom: 20px; height: 500px;">
+                        <h5 class="card-header py-4" style="background-color: #799c55"><?= $_event['name_event'] ?></h5>
+                        <div class="card-body">
+                            <h5 class="card-title">Date Event: <?= $_event['date_event'] ?></h5>
+                            <h5 class="card-title">End Event: <?= $_event['end_event'] ?></h5>
+                            <p class="card-text"><?= $_event['description_event'] ?></p>
+                            <p class="card-text">
+                                Open Regis: <?= $_event['open_start'] ?><br>
+                                Close Regis: <?= $_event['open_end'] ?>
+                            </p>
+                            <p class="card-text">
+                                Time: <?= $timeStart ?> - <?= $timeEnd ?>
+                            </p>
+                            <p class="card-text"><i>Contact Person: <?= $_event['pic'] ?> / <?= $_event['phone'] ?></i></p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-4">
-                <h2 class="heading-section mb-4 pb-md-3">
-                    <small>Cards with image</small>
-                </h2>
-                <div class="card">
-                    <img src="images/bg_1.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content. A small river named Duden flows by their place.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-4">
-                <h2 class="heading-section mb-4 pb-md-3">
-                    <small>Cards w/ Header &amp; Footer</small>
-                </h2>
-                <div class="card text-center">
-                    <h5 class="card-header py-4">
-                        Featured
-                    </h5>
-                    <div class="card-body">
-                        <h5 class="card-title">Special title treatment</h5>
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                    <div class="card-footer text-muted">
-                        2 days ago
-                    </div>
-                </div>
-            </div>
+            <?php endforeach; ?>
         </div>
     </div>
 </section>

@@ -3781,7 +3781,7 @@ input[type="button"].btn-block {
   background-color: #fff;
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
-  border-radius: 0.25rem; }
+  border-radius: 0.25rem;}
   .card > hr {
     margin-right: 0;
     margin-left: 0; }
@@ -5406,6 +5406,9 @@ button.bg-light:focus {
 
 .bg-dark {
   background-color: #343a40 !important; }
+
+.bg-green-light {
+  background-color: #799c55 !important; }
 
 a.bg-dark:hover, a.bg-dark:focus,
 button.bg-dark:hover,
@@ -8882,7 +8885,7 @@ h1, h2, h3, h4, h5,
   padding: 0; }
   @media (max-width: 991.98px) {
     .ftco-navbar-light {
-      background: #000 !important;
+      background: #e3e3e3 !important;
       position: relative;
       top: 0;
       padding: 10px 15px; } }
